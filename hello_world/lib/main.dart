@@ -1,6 +1,15 @@
 import 'package:flutter/material.dart';
 
+class Player{
+  String? name;
+
+  // Player({required this.name});
+  Player();
+}
+
 void main() {
+  var dobby = Player();
+  dobby.name;
   runApp(App()); // App() Widget 이 기본 베이스 위젯!
 }
 
